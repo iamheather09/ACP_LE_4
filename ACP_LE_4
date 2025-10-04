@@ -1,0 +1,19 @@
+
+import os 
+
+doc_path = os.path.expanduser('~/Documents/my_file.txt')
+print("===== Student Record ======")
+print("1. Register Student")
+print("2. Open Student Record")
+print("3. Exit")
+
+choice = input("Enter your choice: ")
+if choice == '1':
+    stunum= input("Student No.: ")
+    name = input("Full Name: ")
+    age = input("Age: ")
+    gender = input("Gender: ")
+    birthdate = input("Birthdate (MM/DD/YYYY): ")
+    contact = input("Contact No.: ")
+
+    
