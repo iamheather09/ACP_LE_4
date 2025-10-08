@@ -1,5 +1,5 @@
 
-mport os
+import os
 
 # Step 0: Setup
 doc_path = os.path.expanduser("~/Documents")
